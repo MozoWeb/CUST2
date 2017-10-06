@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER DETAILS IN NEXT ACTIVITY"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="25dip"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Customer name is: "/>
+
+    <TextView android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="18dip"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="30dip"/>
+
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Customers post code is: "/>
+
+    <TextView android:id="@+id/txtPostCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dip"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textSize="18dip"/>
+
+    <Button android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dip"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:onClick="onBackButtonClick"
+        android:text="GO TO PREVIOUS SCREEN"/>
+
+
+
+</LinearLayout>

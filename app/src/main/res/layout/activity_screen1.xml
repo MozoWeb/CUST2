@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER CUSTOMER DETAILS"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="15dip"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Customer Name: "/>
+
+    <EditText android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:layout_marginBottom="20dip"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="Post Code: "
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <EditText android:id="@+id/postCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textColor="#000"
+        android:layout_marginBottom="10dip"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <Button android:id="@+id/btnNextScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND TO NEXT SCREEN"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="95dip"/>
+
+    <Button
+        android:id="@+id/gMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OPEN GOOGLE MAPS"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="gMaps"
+
+        />
+
+
+</LinearLayout>
+
